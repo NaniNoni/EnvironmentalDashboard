@@ -1,0 +1,77 @@
+.body {
+  background-color: green;
+}
+
+.menu-bar {
+  background-color: #1670ca;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.menu-bar .navbar-item {
+  color: white;
+  background-color: transparent;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 20px;
+  border: none;
+}
+.menu-bar .navbar-item .logo {
+  height: 40px;
+  width: 40px;
+  padding: 0px 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-item.title {
+  font-weight: bolder;
+}
+
+.navbar-item.title:hover {
+  background-color: #1670ca;
+}
+
+.navbar-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 20px;
+}
+.grid .item {
+  color: #242424;
+  background-color: #10366f;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  border-radius: 25px;
+}
+.grid .item .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid .item .content .text {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.grid .item .content .images {
+  size: 100px 100px;
+}/*# sourceMappingURL=style.css.map */
